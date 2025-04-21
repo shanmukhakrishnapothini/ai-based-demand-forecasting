@@ -1,0 +1,112 @@
+/* Reset default spacing */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e003e;
+}
+
+/* Navbar styles */
+#navbar-example2 {
+    background-color: rgb(46, 7, 63) !important;
+    padding: 12px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar a,
+.navbar-brand,
+.nav-pills .nav-link {
+    color: white !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Section spacing */
+section {
+    padding: 40px 20px;
+}
+
+/* Centered main section headings */
+h2, h3, h4, h5 {
+    font-weight: bold;
+    
+    color: #3d0149;
+    margin-bottom: 20px;
+}
+
+/* Center main project heading */
+#scrollspyHeading1,
+#scrollspyHeading2,
+#scrollspyHeading3 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    color: #2e003e;
+    background-color: transparent;
+}
+
+/* Section content containers */
+#scrollspyHeading1 + .cont2,
+#scrollspyHeading3 + .container {
+    background-color: #ecd5f9;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+/* Remove all container borders */
+.container {
+    border: none;
+    background-color: transparent;
+}
+
+/* Minor sections */
+h5 {
+    color: #800080;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* List styling */
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* File input */
+input[type="file"] {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Submit button */
+button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b0082;
+}
+
+/* Forecast image styling */
+img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+h4,h5,h3,h2,p,u{
+    margin: 2px;
+    padding: 0;
+}
